@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolution of Charmander</title>
+  <style>
+    .evolution {
+      width: 300px;
+      height: 300px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: auto;
+      background-image: url("chrmander.png"); /* default */
+    }
+
+    @media (min-width: 400px) {
+      .evolution {
+        background-image: url("Charmeleon-removebg-preview.png");
+      }
+    }
+
+    @media (min-width: 550px) {
+      .evolution {
+        background-image: url("Charizardevo.webp");
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: orange;">Please change the size to see the Evolution.</h1>
+
+  <!--  THIS is the important part -->
+  <div class="evolution"></div>
+</body>
+</html>
